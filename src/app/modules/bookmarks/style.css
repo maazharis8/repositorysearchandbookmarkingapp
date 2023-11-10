@@ -1,0 +1,21 @@
+.bookmarkCards {
+    min-height: 274px;
+}
+
+.bookmarkCards .count {
+ width: fit-content;
+}
+
+.bookmarkCards .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bookmarkCards .name {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

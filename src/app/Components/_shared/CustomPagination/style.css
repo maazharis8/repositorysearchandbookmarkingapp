@@ -1,0 +1,27 @@
+ .rowPerPage {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rowsperpageSelect {
+    border: 1px solid #ced4da;
+    background-color: transparent;
+    padding: 9px 0px;
+    border-radius: 6px;
+    width: 79px;
+  }
+
+  .pag ul {
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  }
+  
+  select {
+    outline: none;
+  }
+
+  @media only screen and (max-width: 575px) {
+    .pag ul {
+      gap: 10px;
+    }
+  }
